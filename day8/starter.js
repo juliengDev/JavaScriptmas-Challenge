@@ -1,10 +1,11 @@
-let guessArr = []
+let guessArr = ['g','i','f','t']
 
 function renderGuess() {
     const guessHtml = guessArr.map((char) => {
         return `<div class="guess-char">${char}</div>`
     })
     guessContainer.innerHTML = guessHtml.join('')
+    
 }
 
 function start() {

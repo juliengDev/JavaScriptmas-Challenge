@@ -1,4 +1,4 @@
-html, body {
+    html, body {
     margin: 0;
     padding: 0;
 }
@@ -21,13 +21,47 @@ body {
 
 #guess-container {
     display: flex;
-    border: 2px solid #999;
-    border-radius: 5px; 
-    max-width: 330px;
-    margin: 1em auto; 
+    font-size: 1.5em;
     justify-content: center;
-    background-color: white;
+    color: #c03a2b;
+    font-weight: 700;
+    align-items: center;
+    max-width: 330px;
+    margin: 1em auto;
+    padding: 15px;
+    background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(192, 58, 43, 0.2);
+    border: 2px solid #c03a2b;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
 }
+
+#guess-container::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;    
+    z-index: 1;
+}
+
+#guess-container .guess-char {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #c03a2b;
+    margin: 0 10px;
+    text-shadow: 2px 2px 4px rgba(192, 58, 43, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#guess-container .guess-char:hover {
+    transform: scale(1.1);
+}
+
+
 
 button.letter{
     padding: 8px;
