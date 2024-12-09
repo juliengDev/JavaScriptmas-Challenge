@@ -107,4 +107,3 @@ Distribué sous la licence **MIT**. Voir `LICENSE` pour plus d'informations.
 
 *Développé avec ❤️ durant le JavaScript Advent Calendar*
 
-# JavaScriptmas-Challenge
