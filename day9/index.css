@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f0f4f8 0%, #e0e8f0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#recipe-output {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    animation: fadeIn 0.5s ease-out;
+}
+
+#recipe-output h1 {
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+#recipe-output p {
+    background-color: #f7f9fc;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    color: #34495e;
+    transition: all 0.3s ease;
+}
+
+#recipe-output p:hover {
+    background-color: #e8f4f8;
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+    #recipe-output {
+        margin: 20px;
+        padding: 20px;
+    }
+}

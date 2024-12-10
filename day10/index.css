@@ -1,0 +1,226 @@
+.frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .overlap-group-wrapper {
+    
+    width: 360px;
+    height: 225px;
+    background: repeating-linear-gradient(
+        45deg,                
+        #4c4d51,              
+        #4c4d51 30px,        
+        #1f4c27 30px,        
+        #1f4c27 60px         
+      );
+  }
+  
+  .frame .overlap-group {
+    position: relative;
+    width: 143px;
+    height: 171px;
+    top: 28px;
+    left: 128px;
+  }
+  
+  .frame .vector {
+    position: absolute;
+    width: 11px;
+    height: 14px;
+    top: 64px;
+    left: 5px;
+  }
+  
+  .frame .img {
+    position: absolute;
+    width: 10px;
+    height: 14px;
+    top: 64px;
+    transform: scale(1.05);
+    left: 94px;
+  }
+  
+  .frame .vector-2 {
+    position: absolute;
+    width: 78px;
+    height: 30px;
+    top: 141px;
+    left: 15px;
+    
+  }
+  
+  .frame .vector-3 {
+    position: absolute;
+    width: 10px;
+    height: 17px;
+    top: 76px;
+    left: 94px;
+  }
+  
+  .frame .vector-4 {
+    position: absolute;
+    width: 11px;
+    height: 17px;
+    top: 75px;
+    left: 5px;
+  }
+  
+  .frame .vector-5 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 64px;
+    left: 15px;
+    transform: scale(1.05);
+  }
+  
+  .frame .vector-6 {
+    position: absolute;
+    width: 11px;
+    height: 8px;
+    top: 106px;
+    left: 49px;
+  }
+  
+  .frame .vector-7 {
+    position: absolute;
+    width: 103px;
+    height: 20px;
+    top: 100px;
+    left: 3px;
+    transform: scale(1.05);
+  }
+  
+  .frame .vector-8 {
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    top: 114px;
+    left: 34px;
+  }
+  
+  .frame .vector-9 {
+    position: absolute;
+    width: 17px;
+    height: 10px;
+    top: 124px;
+    left: 53px;
+  }
+  
+  .frame .vector-10 {
+    position: absolute;
+    width: 16px;
+    height: 25px;
+    top: 120px;
+    left: 10px;
+    transform: scale(1.05);
+  }
+  
+  .frame .vector-11 {
+    position: absolute;
+    width: 4px;
+    height: 17px;
+    top: 87px;
+    left: 94px;
+  }
+  
+  .frame .vector-12 {
+    position: absolute;
+    width: 6px;
+    height: 17px;
+    top: 87px;
+    left: 10px;
+  }
+  
+  .frame .vector-13 {
+    position: absolute;
+    width: 18px;
+    height: 26px;
+    top: 119px;
+    left: 81px;
+  }
+  
+  .frame .ellipse {
+    left: 64px;
+    position: absolute;
+    width: 13px;
+    height: 10px;
+    top: 82px;
+    background-color: #2f4f4f;
+    border-radius: 6.5px / 5px;
+    border: 1px solid;
+  }
+  
+  .frame .div {
+    left: 34px;
+    position: absolute;
+    width: 13px;
+    height: 10px;
+    top: 82px;
+    background-color: #2f4f4f;
+    border-radius: 6.5px / 5px;
+    border: 1px solid;
+  }
+  
+  .frame .vector-14 {
+    position: absolute;
+    width: 16px;
+    height: 12px;
+    top: 142px;
+    left: 26px;
+  }
+  
+  .frame .vector-15 {
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    top: 144px;
+    left: 41px;
+    transform: scale(1.05);
+
+  }
+  
+  .frame .vector-16 {
+    position: absolute;
+    width: 17px;
+    height: 11px;
+    top: 144px;
+    left: 65px;
+    transform: scale(1.05);
+  }
+  
+  .frame .vector-17 {
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    top: 35px;
+    left: 0;
+  }
+  
+  .frame .vector-18 {
+    position: absolute;
+    width: 40px;
+    height: 51px;
+    top: 19px;
+    left: 102px;
+  }
+  
+  .frame .vector-19 {
+    position: absolute;
+    width: 20px;
+    height: 26px;
+    top: 0;
+    left: 102px;
+  }
+  
+  .frame .vector-20 {
+    position: absolute;
+    width: 95px;
+    height: 36px;
+    top: 0;
+    left: 8px;
+  }
+  
