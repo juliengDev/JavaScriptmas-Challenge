@@ -1,0 +1,132 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build directories
+dist/
+build/
+out/
+.cache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific files
+*.swp
+*.lock
+*.pyc
+*.pyo
+*.env
+*.bak
+._*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+~*
+
+# Coverage reports
+coverage/
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+.jest/
+.nyc_output/
+coverage/
+
+# Next.js
+.next/
+out/
+
+# React Native
+.expo/
+*.expo
+.expo-shared/
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+*.iml
+*.lock
+*.log
+*.bak
+*.swp
+*.tmp
+*.temp
+*.class
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# PHP
+/vendor/
+composer.lock
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Ruby
+*.gem
+vendor/bundle/
+.rvmrc
+
+# Go
+*.exe
+*.test
+*.out
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.gz
+
+# Images and binaries
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.webp
+*.ttf
+*.woff
+*.woff2
+
+# Custom files
+my-custom-folder/
+my-temp-file.*
