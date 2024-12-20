@@ -1,7 +1,129 @@
-* {
-    --green: #024f1a; 
+:root {
+    --green: #024f1a;
+    --pure-white : #fff;
+    --black: #000;
+    --gray: rgba(128, 128, 128, 0.85);
+  
 }
 
-img {
-    width: 200px;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+
+body {
+    font-family: "Arial", sans-serif;
+    position: relative;
+    background-color: var(--green);
+    color: var(--pure-white );
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+  
+}
+img {
+    position:absolute;
+    top: -10px;
+    left:-210px;
+    width: 600px;
+    z-index: 0;
+}
+
+h1 {
+    font-family: "Times New Roman", serif;
+    position: absolute;
+    padding-top: 60px;
+    font-size: 96px;
+    padding-left: 250px;
+}
+
+h2 {
+    max-width: 500px;
+    position: absolute;
+    left: 60%; 
+    transform: translateX(-50%); 
+    z-index: 1;
+    top: 320px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 60px;
+    
+}
+h2::before {
+    content: "";
+    position: absolute; 
+    width: 250px;
+    height: 2px; 
+    background-color: var(--black);
+    top: calc(-30px - 2px);
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+h2::after {
+    content: "";
+    position: absolute; 
+    width: 250px;
+    height: 2px; 
+    background-color: var(--black);    
+    left: 50%; 
+    top: calc(100% + 20px);
+    transform: translateX(-50%); 
+}
+
+
+.promo-container {
+    position: absolute;
+    min-height: 150px;
+    width: 100%;
+    background-color: var(--gray);
+    text-align: center;
+    bottom: -100px; 
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 40px 0 ;
+    z-index: 1;
+
+}
+.promo-container p:first-child {
+    font-family: "Times New Roman", serif;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--black);
+    margin: 0 0 20px 0;
+}
+
+.promo-container p:nth-child(2) {
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+
+.promo-container p:last-child{
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+
+
+
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
