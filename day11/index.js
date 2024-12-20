@@ -77,7 +77,6 @@ function checkMatch() {
   const emoji2 = card2.querySelector('.card__side--back').textContent;
 
   if (emoji1 === emoji2) {
-    // Cartes correspondantes
     card1.classList.add('matched');
     card2.classList.add('matched');
     matchedCards.push(card1, card2);
@@ -107,7 +106,6 @@ function checkMatch() {
 
 initGame();
 
-// Bouton de réinitialisation (optionnel)
 const resetButton = document.createElement('button');
 resetButton.textContent = 'New Game';
 resetButton.addEventListener('click', initGame);
