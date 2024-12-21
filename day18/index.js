@@ -20,8 +20,14 @@ Expected output: 559.93
 */
 
 function calculateCost(arr){
+let total = 0;
     // Your code here!
+ arr.forEach(element => {
+    if( element.isGift === true){
+        total += element.price;
+    }
+ });
+ return total.toFixed(2);
 }
 
 console.log(calculateCost(shoppingCartData)) //559.93 
-
