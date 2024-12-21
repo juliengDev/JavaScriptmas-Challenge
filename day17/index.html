@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8">
+	<title>Santa Needs You</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Santa Needs You!</h1>
+        <img src="santa-needs-you.png" 
+             alt="Image of Father Christmas pointing, ‘We Want You’ style" >
+        <p>We're recruiting elves and helpers!</p>
+    </header>
+
+    <main>
+        <section aria-labelledby="form-title">
+            <h2 id="form-title" class="visually-hidden">Application form</h2>
+            
+            <form class="signup-form" novalidate aria-describedby="form-description">
+                <p id="form-description" class="visually-hidden">Application form to become Santa's assistant</p>
+                
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" 
+                           id="name" 
+                           name="name" 
+                           required 
+                           aria-required="true">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" 
+                           id="email" 
+                           name="email" 
+                           required 
+                           aria-required="true">
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" aria-label="Envoyer votre candidature">
+                        Apply now
+                    </button>
+                </div>
+            </form>
+
+            <div class="message" role="status" aria-live="polite" hidden>
+                Email received! Thank you 🎅
+                <span class="visually-hidden">Your application has been successfully submitted</span>
+            </div>
+
+            <blockquote>
+                <p>"Excellent pay and conditions. Plenty of travel!"</p>
+            </blockquote>
+        </section>
+        <section role="contentinfo">
+            <h3 class="footer-txt">
+                We believe in equal opportunities. For full terms and conditions, 
+                <a href="#" aria-label="Consulter les conditions générales complètes">click here</a>.
+            </h3>
+        </section>
+    </main>
+
+
+    <script src="index.js" defer></script>
+
+  
+</body>
+
+</html>
